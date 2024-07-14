@@ -1,0 +1,155 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+body {
+    font-size: 22px;
+    text-align: center;
+}
+
+header {
+    position: inline-block;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid seashell;  
+    width: 1300px;
+    height: 69px;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    float: left;
+    padding: 9px 0 9px 10px;
+}
+
+#navbar {
+    display: flex;
+    height: 68px;
+    width: 350px;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+#navbarcat {
+    text-decoration: underline;
+}
+
+
+#mission {
+    display: flex;
+    Justify-content: space-around;
+    align-items: center;
+    background-image: url("../Resources/Images/img-mission-background.webp");
+    background-position: center;
+    width: 1200px;
+    height: 700px;  
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#ourmission {
+    width: 1200px;
+    height: 100px;
+    opacity: 1;
+    line-height: 50%;
+    vertical-align: middle;
+}
+
+#featuredtea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}   
+
+#teatitle {
+    opacity: 1;
+    line-height: 50%;
+    
+}
+
+#tea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:space-evenly;
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 100px;
+    
+}
+.tea figure {
+    width: 300px;
+    height: auto;
+    margin: 0 15px 15px;
+    
+}
+.tea img {
+    width: 300px;
+    height: 200px;
+}
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    opacity: 1;
+    height: 500px;
+    width: 1200px;
+    margin: 0 50px;
+    background-image: url("../Resources/Images/img-locations-background.webp");
+    background-position: center;
+
+}
+
+.locations {
+    background-color: transparent;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#addresslist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1300px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.address {
+    width: 300px;
+    height: 250px;
+    margin: 15px 20px;
+    align-items: baseline;  
+    background-color: black; 
+    opacity: 1;
+    line-height: 150%;
+}
+
+#theteacozy {
+    width: 1300px;
+    text-align: center;
+    height: 200px;
+}
+#copyright {
+    display: inline;
+    float: left;
+    margin-left: 20px;
+}
